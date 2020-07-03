@@ -1,5 +1,6 @@
 package com.zucc.backa.pojo;
 
+import io.swagger.annotations.Api;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -10,7 +11,6 @@ public class User {
     private String id;
 
     private String name;
-
 
     public String getId() {
         return id;
