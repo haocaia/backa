@@ -1,4 +1,5 @@
 package com.zucc.backa.controller;
+import com.zucc.backa.dao.UserDao;
 import com.zucc.backa.pojo.User;
 import com.zucc.backa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,8 +14,11 @@ public class Test1 {
 
     @Autowired
     UserService userService;
+    @Autowired
+    UserDao userDao;
     @GetMapping("/hello")
     public List<User> hello() {
+
         User u = new User();
         u.setId("12");
         u.setName("sss");
