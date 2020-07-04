@@ -28,9 +28,8 @@ public class Test1 {
     public Result hello() {
 
         User u = new User();
-//        u.setId("12");
         u.setName("ssss");
         userService.insertUser(u);
-        return ResultUtil.success(userService.findAll()); //success
+        return ResultUtil.success(userService.findAll());
     }
 }
