@@ -5,7 +5,7 @@ package com.example.demo;
         import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
- * @author yww51
+ * @author zyt
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class BackaApplication {
