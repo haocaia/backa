@@ -30,6 +30,6 @@ public class Test1 {
         User u = new User();
         u.setName("ssss");
         userService.insertUser(u);
-        return ResultUtil.success(userService.findAll()); //success
+        return ResultUtil.success(userService.findAll());
     }
 }
