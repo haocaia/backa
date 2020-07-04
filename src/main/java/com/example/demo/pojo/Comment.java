@@ -1,4 +1,4 @@
-﻿package com.example.demo.pojo;
+package com.example.demo.pojo;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
