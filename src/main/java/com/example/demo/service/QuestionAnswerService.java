@@ -1,9 +1,8 @@
-package com.zucc.backa.service;
+package com.example.demo.service;
 
-
-import com.core.po.Answer;
-import com.core.po.Question;
-import com.core.po.ResultList;
+import com.example.demo.pojo.Answer;
+import com.example.demo.pojo.AnswerToComment;
+import com.example.demo.pojo.Question;
 
 import java.util.List;
 
@@ -18,7 +17,7 @@ public interface QuestionAnswerService {
     void appendQuestion(String QuestionTitle,String QuestionContent,String QuestionImage);
 
     /**显示问题及回答及评论*/
-    List<ResultList> showQuestion(String QuestionId);
+    List<AnswerToComment> showQuestion(String QuestionId);
 
     /*查询单个问题*/
     Question searchSingleQuestion(String QuestionId);
