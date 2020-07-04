@@ -1,7 +1,10 @@
-package com.zucc.backa.util;
+package com.example.demo.util;
 
-import com.zucc.backa.pojo.Result;
+import com.example.demo.pojo.Result;
 
+/**
+ * @author zyt
+ */
 public class ResultUtil {
     public static Result success(Object object){
         Result r = new Result();
