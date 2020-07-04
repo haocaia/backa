@@ -1,15 +1,10 @@
-package com.zucc.backa.controller;
-import com.zucc.backa.dao.UserDao;
-import com.zucc.backa.pojo.Result;
-import com.zucc.backa.pojo.User;
-import com.zucc.backa.service.UserService;
-import com.zucc.backa.util.ResultUtil;
+package com.example.demo.controller;
+import com.example.demo.pojo.Result;
+import com.example.demo.util.ResultUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
