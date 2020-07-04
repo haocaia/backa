@@ -1,5 +1,8 @@
-package com.zucc.backa.pojo;
+package com.example.demo.pojo;
 
+/**
+ * @author zyt
+ */
 public class Result<T> {
     private int code;
     private String msg;
